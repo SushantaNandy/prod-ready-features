@@ -10,6 +10,7 @@ This project covers the basic SpringBoot appliaction having the below files:
 5. Class which implement the Service interface known as PostServiceImpl
 6. Having a Controller with below endPoints:
 7. Gracefully handled the Error using the Advice 
+8. Added a auto restart using the library -> spring-boot-devtools
 
 
 ## API Reference
