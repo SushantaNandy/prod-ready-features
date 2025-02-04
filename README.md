@@ -21,7 +21,7 @@ This project covers the basic SpringBoot appliaction having the below files:
 
 ## API Reference
 
-#### Get all items
+#### Create a new Post based on provided title and description in Body
 
 ```http
   POST http://127.0.0.1:8080/posts
@@ -31,7 +31,7 @@ This project covers the basic SpringBoot appliaction having the below files:
 | :-------- | :------- | :------------------------- |
 | `jSON body` | `string` | **Required** title and dsecription |
 
-#### Get item
+#### Get all Posts
 
 ```http
   GET http://127.0.0.1:8080/posts
@@ -41,6 +41,9 @@ This project covers the basic SpringBoot appliaction having the below files:
 | :-------- | :------- | :-------------------------------- |
 | null      |          | **Required**. Fetch All the Posts |
 
+
+#### Get all Posts based on postId
+
 ```http
   GET http://127.0.0.1:8080/posts/{postId}
 ```
@@ -48,6 +51,7 @@ This project covers the basic SpringBoot appliaction having the below files:
 | :-------- | :------- | :-------------------------------- |
 | postId    |Integer   | **Required**. Fetch Post based on the PostId|
 
+#### Get all the changes based on postId only for Admin Panel
 
 ```http
   GET http://127.0.0.1:8080/audit/post/{postId}
