@@ -16,7 +16,7 @@ This project covers the basic SpringBoot appliaction having the below files:
 11. And declare it in a global level AppConfig by creating a bean of it. So where ever auditing ios required as of now implemented it in the PostEntity class hence extended the AuditableEntity class.
 12. Any Db changes will be tracked by AuditableEntity class.
 13. Used the Hibernate Envers for what had changes like more advanced features.
-14. 
+14. Created one more end point for Admin to see the changes made my any.
 
 
 ## API Reference
@@ -47,6 +47,14 @@ This project covers the basic SpringBoot appliaction having the below files:
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | postId    |Integer   | **Required**. Fetch Post based on the PostId|
+
+
+```http
+  GET http://127.0.0.1:8080/audit/post/{postId}
+```
+| Parameter | Type     | Description                                    |
+| :-------- | :------- |:-----------------------------------------------|
+| postId    |Integer   | **Required**. Fetch Changes based on the PostId|
 
 ## Authors
 
