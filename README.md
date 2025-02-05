@@ -17,6 +17,11 @@ This project covers the basic SpringBoot appliaction having the below files:
 12. Any Db changes will be tracked by AuditableEntity class.
 13. Used the Hibernate Envers for what had changes like more advanced features.
 14. Created one more end point for Admin to see the changes made my any.
+15. Created a Connection with the previous API or we can can say 3 rd party API connection using RestClient.
+16. All the 3rd Party repo we made connection with is listed down in this repo (https://github.com/SushantaNandy/springbootweb).
+17. I had created a testcases rather than a controllers inside my Test class.
+18. Gracefully handling of error are also taken place for for either server side or client side error.
+19. 
 
 
 ## API Reference
