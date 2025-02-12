@@ -21,7 +21,11 @@ This project covers the basic SpringBoot appliaction having the below files:
 16. All the 3rd Party repo we made connection with is listed down in this repo (https://github.com/SushantaNandy/springbootweb).
 17. I had created a testcases rather than a controllers inside my Test class.
 18. Gracefully handling of error are also taken place for for either server side or client side error.
-19. 
+19. Used SLF4J for logging error and store it in application.log file
+20. And used Logback configuration xml for capuring logs not more then 100 Mb inside logs folder.
+21. Used of actuator and declared in application.properties files and more information about the application and it provide nice little apis to view more information about our app.
+22. Added a swagger UI file in the url http://localhost:9000/swagger-ui/index.html
+23. Added my swagger locally as well in swagger.json file. After running the application paste the content in https://editor.swagger.io/ to view and use the end points.
 
 
 ## API Reference

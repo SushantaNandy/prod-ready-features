@@ -1,0 +1,24 @@
+2025-02-06T12:14:29.331+05:30  INFO 2856 --- [prod-ready-features] [main] .n.p.p.ProdReadyFeaturesApplicationTests : Starting ProdReadyFeaturesApplicationTests using Java 23.0.1 with PID 2856 (started by User in C:\Users\User\Downloads\prod-ready-features\prod-ready-features)
+2025-02-06T12:14:29.332+05:30  INFO 2856 --- [prod-ready-features] [main] .n.p.p.ProdReadyFeaturesApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-02-06T12:14:29.641+05:30  INFO 2856 --- [prod-ready-features] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-06T12:14:29.672+05:30  INFO 2856 --- [prod-ready-features] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-02-06T12:14:29.934+05:30  INFO 2856 --- [prod-ready-features] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-06T12:14:29.965+05:30  INFO 2856 --- [prod-ready-features] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-02-06T12:14:29.982+05:30  INFO 2856 --- [prod-ready-features] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-06T12:14:30.041+05:30  INFO 2856 --- [prod-ready-features] [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2025-02-06T12:14:30.162+05:30  INFO 2856 --- [prod-ready-features] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-06T12:14:30.177+05:30  INFO 2856 --- [prod-ready-features] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-06T12:14:30.330+05:30  INFO 2856 --- [prod-ready-features] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11015ca0
+2025-02-06T12:14:30.334+05:30  INFO 2856 --- [prod-ready-features] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-06T12:14:30.481+05:30  INFO 2856 --- [prod-ready-features] [main] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.nandy.prod_ready_features.prod_ready_features.entities.PostEntity
+2025-02-06T12:14:30.860+05:30 ERROR 2856 --- [prod-ready-features] [main] o.h.metamodel.internal.MetadataContext   : HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2025-02-06T12:14:30.863+05:30  INFO 2856 --- [prod-ready-features] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-06T12:14:31.005+05:30  INFO 2856 --- [prod-ready-features] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-06T12:14:31.242+05:30  WARN 2856 --- [prod-ready-features] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-06T12:14:31.412+05:30  INFO 2856 --- [prod-ready-features] [main] .n.p.p.ProdReadyFeaturesApplicationTests : Started ProdReadyFeaturesApplicationTests in 2.225 seconds (process running for 2.708)
+2025-02-06T12:14:31.642+05:30 TRACE 2856 --- [prod-ready-features] [main] c.n.p.p.clients.EmployeeClientImpl       : Trying to create new Employee with information com.nandy.prod_ready_features.prod_ready_features.dto.EmployeeDTO@701153c1
+2025-02-06T12:14:31.642+05:30  INFO 2856 --- [prod-ready-features] [main] c.n.p.p.clients.EmployeeClientImpl       : Trying to create employee
+2025-02-06T12:14:31.701+05:30 ERROR 2856 --- [prod-ready-features] [main] c.n.p.p.clients.EmployeeClientImpl       : Failed to create employee by informationcom.nandy.prod_ready_features.prod_ready_features.dto.EmployeeDTO@701153c1
+2025-02-06T12:14:31.712+05:30  INFO 2856 --- [prod-ready-features] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-06T12:14:31.714+05:30  INFO 2856 --- [prod-ready-features] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-06T12:14:31.718+05:30  INFO 2856 --- [prod-ready-features] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

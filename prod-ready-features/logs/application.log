@@ -1,0 +1,24 @@
+2025-02-06 12:36:48 [main] INFO  c.n.p.p.ProdReadyFeaturesApplicationTests - Starting ProdReadyFeaturesApplicationTests using Java 23.0.1 with PID 17152 (started by User in C:\Users\User\Downloads\prod-ready-features\prod-ready-features)
+2025-02-06 12:36:48 [main] INFO  c.n.p.p.ProdReadyFeaturesApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-06 12:36:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-06 12:36:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2025-02-06 12:36:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-06 12:36:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-02-06 12:36:49 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-06 12:36:49 [main] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2025-02-06 12:36:49 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-06 12:36:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-06 12:36:49 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6be8ce1b
+2025-02-06 12:36:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-06 12:36:50 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: com.nandy.prod_ready_features.prod_ready_features.entities.PostEntity
+2025-02-06 12:36:50 [main] ERROR o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2025-02-06 12:36:50 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-06 12:36:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-06 12:36:50 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-06 12:36:51 [main] INFO  c.n.p.p.ProdReadyFeaturesApplicationTests - Started ProdReadyFeaturesApplicationTests in 2.281 seconds (process running for 2.77)
+2025-02-06 12:36:51 [main] TRACE c.n.p.p.clients.EmployeeClientImpl - Trying to create new Employee with information com.nandy.prod_ready_features.prod_ready_features.dto.EmployeeDTO@8d0253b
+2025-02-06 12:36:51 [main] INFO  c.n.p.p.clients.EmployeeClientImpl - Trying to create employee
+2025-02-06 12:36:51 [main] ERROR c.n.p.p.clients.EmployeeClientImpl - Failed to create employee by informationcom.nandy.prod_ready_features.prod_ready_features.dto.EmployeeDTO@8d0253b
+2025-02-06 12:36:51 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-06 12:36:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-06 12:36:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
